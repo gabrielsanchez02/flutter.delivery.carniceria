@@ -1,0 +1,106 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutter_auth"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:33:5-67
+14-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:33:22-64
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:30:5-65
+15-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:30:22-62
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:31:5-79
+16-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:31:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:32:5-81
+17-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:32:22-78
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:34:5-79
+18-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:34:22-76
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->[:simple_connectivity] D:\gaby\ferozo FTP app nito\public_html\app\build\simple_connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-76
+19-->[:simple_connectivity] D:\gaby\ferozo FTP app nito\public_html\app\build\simple_connectivity\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-73
+20    <!--
+21 io.flutter.app.FlutterApplication is an android.app.Application that
+22         calls FlutterMain.startInitialization(this); in its onCreate method.
+23         In most cases you can leave this as-is, but you if you want to provide
+24         additional functionality it is fine to subclass or reimplement
+25         FlutterApplication and put your custom class here.
+26    -->
+27    <application
+27-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:8:5-29:19
+28        android:name="io.flutter.app.FlutterApplication"
+28-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:9:9-57
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.2.0] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\b6252bb7f30c7dceb20e97dfa6dfae00\core-1.2.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:11:9-43
+32        android:label="flutter_auth" >
+32-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:10:9-37
+33        <activity
+33-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:12:9-23:20
+34            android:name="com.example.flutter_auth.MainActivity"
+34-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:13:13-41
+35            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+35-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:16:13-163
+36            android:hardwareAccelerated="true"
+36-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:17:13-47
+37            android:launchMode="singleTop"
+37-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:14:13-43
+38            android:theme="@style/LaunchTheme"
+38-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:15:13-47
+39            android:windowSoftInputMode="adjustResize" >
+39-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:18:13-55
+40            <intent-filter>
+40-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:19:13-22:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:20:17-68
+41-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:20:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:21:17-76
+43-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:21:27-74
+44            </intent-filter>
+45        </activity>
+46        <!--
+47             Don't delete the meta-data below.
+48             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+49        -->
+50        <meta-data
+50-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:26:9-28:33
+51            android:name="flutterEmbedding"
+51-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:27:13-44
+52            android:value="2" />
+52-->D:\gaby\ferozo FTP app nito\public_html\app\android\app\src\main\AndroidManifest.xml:28:13-30
+53
+54        <activity android:name="de.mintware.barcode_scan.BarcodeScannerActivity" />
+54-->[:barcode_scan] D:\gaby\ferozo FTP app nito\public_html\app\build\barcode_scan\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-84
+54-->[:barcode_scan] D:\gaby\ferozo FTP app nito\public_html\app\build\barcode_scan\intermediates\library_manifest\debug\AndroidManifest.xml:14:19-81
+55        <activity
+55-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\f81e9fffe318fdc5660099e12e35729e\play-services-base-17.2.1\AndroidManifest.xml:23:9-26:75
+56            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+56-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\f81e9fffe318fdc5660099e12e35729e\play-services-base-17.2.1\AndroidManifest.xml:24:13-79
+57            android:exported="false"
+57-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\f81e9fffe318fdc5660099e12e35729e\play-services-base-17.2.1\AndroidManifest.xml:25:13-37
+58            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+58-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\f81e9fffe318fdc5660099e12e35729e\play-services-base-17.2.1\AndroidManifest.xml:26:13-72
+59
+60        <meta-data
+60-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\9756b4fe7e986ae7f4249ad7bf72535e\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
+61            android:name="com.google.android.gms.version"
+61-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\9756b4fe7e986ae7f4249ad7bf72535e\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58
+62            android:value="@integer/google_play_services_version" />
+62-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\Gabriel\.gradle\caches\transforms-2\files-2.1\9756b4fe7e986ae7f4249ad7bf72535e\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
+63    </application>
+64
+65</manifest>

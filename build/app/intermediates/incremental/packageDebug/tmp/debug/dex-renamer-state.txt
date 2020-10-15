@@ -1,0 +1,4 @@
+#Wed Sep 23 19:49:09 ART 2020
+base.0=D\:\\gaby\\ferozo FTP app nito\\public_html\\app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
