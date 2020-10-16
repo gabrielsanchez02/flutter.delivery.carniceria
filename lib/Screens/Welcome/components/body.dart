@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'package:accesosqr/Screens/Signup/signup_screen.dart';
-import 'package:accesosqr/Screens/Welcome/components/background.dart';
-import 'package:accesosqr/components/rounded_button.dart';
-import 'package:accesosqr/constants.dart';
+import 'package:carniceriaDelivery/Screens/Signup/signup_screen.dart';
+import 'package:carniceriaDelivery/Screens/Welcome/components/background.dart';
+import 'package:carniceriaDelivery/components/rounded_button.dart';
+import 'package:carniceriaDelivery/constants.dart';
 
 import '../../scanqr.dart';
 

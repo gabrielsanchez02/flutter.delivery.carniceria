@@ -1,11 +1,11 @@
-import 'package:accesosqr/Screens/Escaneo/escaneo_screen.dart';
+import 'package:carniceriaDelivery/Screens/Escaneo/escaneo_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:accesosqr/Screens/Login/components/background.dart';
-import 'package:accesosqr/Screens/Signup/signup_screen.dart';
-import 'package:accesosqr/components/already_have_an_account_acheck.dart';
-import 'package:accesosqr/components/rounded_button.dart';
-import 'package:accesosqr/components/rounded_input_field.dart';
-import 'package:accesosqr/components/rounded_password_field.dart';
+import 'package:carniceriaDelivery/Screens/Login/components/background.dart';
+import 'package:carniceriaDelivery/Screens/Signup/signup_screen.dart';
+import 'package:carniceriaDelivery/components/already_have_an_account_acheck.dart';
+import 'package:carniceriaDelivery/components/rounded_button.dart';
+import 'package:carniceriaDelivery/components/rounded_input_field.dart';
+import 'package:carniceriaDelivery/components/rounded_password_field.dart';
 import 'package:flutter_svg/svg.dart';
 
 class Body extends StatelessWidget {

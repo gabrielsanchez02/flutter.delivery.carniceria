@@ -1,5 +1,5 @@
-name: accesosqr
-description: Control de acceso con Qr.
+name: carniceriaDelivery
+description: Gestion de pédidos.
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -30,6 +30,7 @@ dependencies:
   geolocator: ^5.3.2+2
   simple_connectivity: 0.1.1
   localstorage: 3.0.2+5
+  firebase_messaging: ^7.0.3
 
 
 dev_dependencies:

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "349600402488",
+    "firebase_url": "https://flutter-accesosqr.firebaseio.com",
+    "project_id": "flutter-accesosqr",
+    "storage_bucket": "flutter-accesosqr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349600402488:android:686f4e76ddb9d30f4b6acd",
+        "android_client_info": {
+          "package_name": "flutter.delivery.carniceria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349600402488-uie20alsilpmj77cpovg1ilk2ln0kij8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBqTbBPmwmw_v31fuM8rCqlsev4_5LkbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349600402488-uie20alsilpmj77cpovg1ilk2ln0kij8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

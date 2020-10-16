@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:accesosqr/constants.dart';
+import 'package:carniceriaDelivery/constants.dart';
 
 class OrDivider extends StatelessWidget {
   @override

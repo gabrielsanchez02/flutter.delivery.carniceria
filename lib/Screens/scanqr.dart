@@ -1,9 +1,9 @@
 import 'dart:convert';
-import 'package:accesosqr/components/rounded_button.dart';
-import 'package:accesosqr/components/rounded_input_field.dart';
-import 'package:accesosqr/estilos/colores.dart';
-import 'package:accesosqr/estilos/fuentes.dart';
-import 'package:accesosqr/services/storeLogin.dart';
+import 'package:carniceriaDelivery/components/rounded_button.dart';
+import 'package:carniceriaDelivery/components/rounded_input_field.dart';
+import 'package:carniceriaDelivery/estilos/colores.dart';
+import 'package:carniceriaDelivery/estilos/fuentes.dart';
+import 'package:carniceriaDelivery/services/storeLogin.dart';
 import 'package:device_info/device_info.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -12,7 +12,7 @@ import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:http/http.dart' as http;
-import 'package:accesosqr/models/tripulantes.dart';
+import 'package:carniceriaDelivery/models/tripulantes.dart';
 import 'dart:convert' as convert;
 
 import 'package:simple_connectivity/simple_connectivity.dart';

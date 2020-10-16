@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:accesosqr/constants.dart';
+import 'package:carniceriaDelivery/constants.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class SocalIcon extends StatelessWidget {
