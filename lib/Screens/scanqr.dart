@@ -12,12 +12,13 @@ import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:http/http.dart' as http;
-import 'package:carniceriaDelivery/models/tripulantes.dart';
+import 'package:provider/provider.dart';
 import 'dart:convert' as convert;
 
 import 'package:simple_connectivity/simple_connectivity.dart';
 
 import '../constants.dart';
+import 'Login/loginState.dart';
 import 'Welcome/components/background.dart';
 import 'Welcome/welcome_screen.dart';
 
@@ -73,7 +74,7 @@ class ScanQrState extends State<QrScan> {
   bool isLocationEnabled = null;
 
   bool desencolando = false;
-  static List<Consulta> encolados = [];
+  //static List<Consulta> encolados = [];
   Consulta _consultaToPush = new Consulta();
 
   var _nomT = TextEditingController();
@@ -108,15 +109,15 @@ class ScanQrState extends State<QrScan> {
     getUbicacion();
     checkConection();
     getDeviceinfo();
-    if (desencolando == false) {
+    /*if (desencolando == false) {
       desencolar();
     }
     eliminaDesencolados();
     print("Consultas encoladas ${encolados.length}");
 
-    ComparaCacheListY_Encolados();
+    ComparaCacheListY_Encolados();*/
   }
-
+/*
   void eliminaDesencolados() async {
     if (conectado == true) {
       if (encolados.length != 0) {
@@ -213,7 +214,7 @@ class ScanQrState extends State<QrScan> {
         }
       }
     }
-  }
+  }*/
 
   void checkConection() async {
     var connectivityResult = await (Connectivity().checkConnectivity());
@@ -458,7 +459,8 @@ class ScanQrState extends State<QrScan> {
                         onPressed: () {
                           cancelar();
                           initState();
-                          Navigator.pop(context);
+
+                          //  Navigator.pop(context);
                           // cancelar();
                         },
                       ),
@@ -589,9 +591,11 @@ class ScanQrState extends State<QrScan> {
                                     ],
                                   ),
                                   onPressed: () {
-                                    storeLogin().CachedeleteUSR();
+                                    // storeLogin().CachedeleteUSR();
                                     /*
+
                                     initState(); */
+                                    Provider.of<LoginState>(context, listen: false).logout();
                                     Navigator.of(context)
                                         .push(MaterialPageRoute(builder: (BuildContext context) => WelcomeScreen()));
                                   },

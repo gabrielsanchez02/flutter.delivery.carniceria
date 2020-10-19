@@ -1,8 +1,11 @@
+import 'package:carniceriaDelivery/Screens/Login/loginState.dart';
+import 'package:carniceriaDelivery/Screens/scanqr.dart';
 import 'package:flutter/material.dart';
 import 'package:carniceriaDelivery/Screens/Signup/signup_screen.dart';
 import 'package:carniceriaDelivery/Screens/Welcome/components/background.dart';
 import 'package:carniceriaDelivery/components/rounded_button.dart';
 import 'package:carniceriaDelivery/constants.dart';
+import 'package:provider/provider.dart';
 
 class Body extends StatelessWidget {
   @override
@@ -29,13 +32,8 @@ class Body extends StatelessWidget {
               text: "ACCEDER",
               conIcono: false,
               press: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    // ignore: missing_return
-                    builder: (context) {},
-                  ),
-                );
+                if (Provider.of<LoginState>(context, listen: false).isLoggedIn() == true)
+                  Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context) => QrScan()));
               },
             ),
             RoundedButton(
