@@ -12,7 +12,6 @@ import 'package:provider/provider.dart';
 class Body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    bool _isLoguedo = false;
     Size size = MediaQuery.of(context).size;
     return Background(
       child: SingleChildScrollView(

@@ -19,11 +19,8 @@ class MyApp extends StatelessWidget {
   }*/
   Widget build(BuildContext context) {
     return ChangeNotifierProvider<LoginState>(
-      // ignore: missing_return
-      builder: (context, child) {
-        LoginState();
-      },
-      child: MaterialApp(
+      create: (context) => LoginState,
+      builder: (context) => MaterialApp(
           debugShowCheckedModeBanner: false,
           title: 'Carniceria',
           theme: ThemeData(

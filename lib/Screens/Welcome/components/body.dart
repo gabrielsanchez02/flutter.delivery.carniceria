@@ -7,7 +7,6 @@ import 'package:carniceriaDelivery/constants.dart';
 class Body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    bool _isLoguedo = false;
     Size size = MediaQuery.of(context).size;
     // This size provide us total height and width of our screen
     // ignore: missing_required_param
