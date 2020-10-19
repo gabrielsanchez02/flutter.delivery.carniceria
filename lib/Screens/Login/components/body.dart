@@ -1,20 +1,18 @@
 import 'package:carniceriaDelivery/Screens/Escaneo/escaneo_screen.dart';
+import 'package:carniceriaDelivery/Screens/Login/loginState.dart';
 import 'package:flutter/material.dart';
 import 'package:carniceriaDelivery/Screens/Login/components/background.dart';
-import 'package:carniceriaDelivery/Screens/Signup/signup_screen.dart';
 import 'package:carniceriaDelivery/components/already_have_an_account_acheck.dart';
 import 'package:carniceriaDelivery/components/rounded_button.dart';
 import 'package:carniceriaDelivery/components/rounded_input_field.dart';
 import 'package:carniceriaDelivery/components/rounded_password_field.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:provider/provider.dart';
 
 class Body extends StatelessWidget {
-  const Body({
-    Key key,
-  }) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
+    bool _isLoguedo = false;
     Size size = MediaQuery.of(context).size;
     return Background(
       child: SingleChildScrollView(
@@ -39,9 +37,11 @@ class Body extends StatelessWidget {
               onChanged: (value) {},
             ),
             RoundedButton(
-              text: "ACCEDER",
+              text: "Loguearse ",
               conIcono: false,
-              press: () {},
+              press: () {
+                Provider.of<LoginState>(context).login();
+              },
             ),
             SizedBox(height: size.height * 0.03),
             AlreadyHaveAnAccountCheck(
