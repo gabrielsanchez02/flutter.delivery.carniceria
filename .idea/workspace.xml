@@ -28,14 +28,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bf602ab-33b6-4572-abaa-f578f35de2b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Screens/Login/components/body.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Screens/Login/components/body.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Screens/Signup/components/body.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Screens/Signup/components/body.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Screens/Welcome/components/body.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Screens/Welcome/components/body.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-    </list>
+    <list default="true" id="4bf602ab-33b6-4572-abaa-f578f35de2b4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603132831461</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="subio todo">
+      <created>1603135304405</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603135304405</updated>
+    </task>
+    <task id="LOCAL-00012" summary="subio todo">
+      <created>1603135449772</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603135449772</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -278,10 +285,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="335" y="294" key="AndroidProcessChooserDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1600452551173" />
-    <state x="486" y="53" width="943" height="951" key="CommitChangelistDialog2" timestamp="1603132814198">
+    <state x="486" y="53" width="943" height="951" key="CommitChangelistDialog2" timestamp="1603135449063">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="486" y="53" width="943" height="951" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1603132814198" />
+    <state x="486" y="53" width="943" height="951" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1603135449063" />
     <state width="1071" height="466" key="DebuggerActiveHint" timestamp="1603133928033">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -298,22 +305,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="838" y="331" width="513" height="296" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1602783778209" />
-    <state width="1272" height="385" key="GridCell.Tab.0.bottom" timestamp="1603134796042">
+    <state width="1272" height="300" key="GridCell.Tab.0.bottom" timestamp="1603135452017">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1272" height="385" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1603134796042" />
-    <state width="1272" height="385" key="GridCell.Tab.0.center" timestamp="1603134796042">
+    <state width="1272" height="300" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1603135452017" />
+    <state width="1272" height="300" key="GridCell.Tab.0.center" timestamp="1603135452016">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1272" height="385" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1603134796042" />
-    <state width="1272" height="385" key="GridCell.Tab.0.left" timestamp="1603134796042">
+    <state width="1272" height="300" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1603135452016" />
+    <state width="1272" height="300" key="GridCell.Tab.0.left" timestamp="1603135452016">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1272" height="385" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1603134796042" />
-    <state width="1272" height="385" key="GridCell.Tab.0.right" timestamp="1603134796042">
+    <state width="1272" height="300" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1603135452016" />
+    <state width="1272" height="300" key="GridCell.Tab.0.right" timestamp="1603135452017">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1272" height="385" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1603134796042" />
+    <state width="1272" height="300" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1603135452017" />
     <state x="491" y="181" key="SettingsEditor" timestamp="1603134321960">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -354,18 +361,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="750" y="313" key="git4idea.merge.GitPullDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1602784041370" />
-    <state width="405" height="621" key="javadoc.popup.new" timestamp="1602894472122">
+    <state width="405" height="621" key="javadoc.popup.new" timestamp="1603135226056">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="405" height="621" key="javadoc.popup.new/0.0.1920.1050@0.0.1920.1050" timestamp="1602894472122" />
+    <state width="405" height="621" key="javadoc.popup.new/0.0.1920.1050@0.0.1920.1050" timestamp="1603135226056" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1602875930136">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1602875930136" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1602784053374">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1603135409674">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1602784053374" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1603135409674" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
