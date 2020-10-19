@@ -9,3 +9,4 @@ const Color secondaryTextColor = Color(0xFF8391A0);
 const Color tertiaryTextColor = Color(0xFFB5ADAC);
 final Color greenColor = Colors.green.shade400;
 const Color blueColor = Colors.lightBlueAccent;
+const Color blueColor1 = Colors.lightBlueAccent;
