@@ -39,7 +39,7 @@ class Body extends StatelessWidget {
               text: "Loguearse ",
               conIcono: false,
               press: () {
-                Provider.of<LoginState>(context).login();
+                Provider.of<LoginState>(context, listen: false).login();
               },
             ),
             SizedBox(height: size.height * 0.03),

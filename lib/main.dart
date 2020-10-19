@@ -19,7 +19,8 @@ class MyApp extends StatelessWidget {
   }*/
   Widget build(BuildContext context) {
     return ChangeNotifierProvider<LoginState>(
-      builder: (context) => LoginState,
+      builder: (BuildContext context, LoginState) => LoginState,
+      create: (BuildContext context) => LoginState(),
       child: MaterialApp(
           debugShowCheckedModeBanner: false,
           title: 'Carniceria',
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
           ),
           routes: {
             '/': (BuildContext context) {
-              var state = Provider.of<LoginState>(context);
+              var state = Provider.of<LoginState>(context, listen: false);
               if (state.isLoggedIn()) {
                 return QrScan();
               } else {
