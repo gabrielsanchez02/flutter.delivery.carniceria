@@ -18,7 +18,7 @@ import 'dart:convert' as convert;
 import 'package:simple_connectivity/simple_connectivity.dart';
 
 import '../constants.dart';
-import 'Login/loginState.dart';
+import '../Providers/loginState.dart';
 import 'Welcome/components/background.dart';
 import 'Welcome/welcome_screen.dart';
 

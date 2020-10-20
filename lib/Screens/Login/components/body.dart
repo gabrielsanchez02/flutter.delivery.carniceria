@@ -1,5 +1,5 @@
 import 'package:carniceriaDelivery/Screens/Escaneo/escaneo_screen.dart';
-import 'package:carniceriaDelivery/Screens/Login/loginState.dart';
+import 'file:///D:/gaby/Aplicaciones/App%20Carniceria/flutter.delivery.carniceria/lib/Providers/loginState.dart';
 import 'package:flutter/material.dart';
 import 'package:carniceriaDelivery/Screens/Login/components/background.dart';
 import 'package:carniceriaDelivery/components/already_have_an_account_acheck.dart';

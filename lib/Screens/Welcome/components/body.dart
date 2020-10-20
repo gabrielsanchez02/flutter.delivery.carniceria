@@ -1,4 +1,4 @@
-import 'package:carniceriaDelivery/Screens/Login/loginState.dart';
+import 'file:///D:/gaby/Aplicaciones/App%20Carniceria/flutter.delivery.carniceria/lib/Providers/loginState.dart';
 import 'package:carniceriaDelivery/Screens/scanqr.dart';
 import 'package:flutter/material.dart';
 import 'package:carniceriaDelivery/Screens/Signup/signup_screen.dart';

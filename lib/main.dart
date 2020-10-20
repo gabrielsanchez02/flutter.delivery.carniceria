@@ -4,7 +4,7 @@ import 'package:carniceriaDelivery/Screens/Welcome/welcome_screen.dart';
 import 'package:carniceriaDelivery/constants.dart';
 import 'package:provider/provider.dart';
 
-import 'Screens/Login/loginState.dart';
+import 'Providers/loginState.dart';
 import 'Screens/Login/login_screen.dart';
 import 'Screens/scanqr.dart';
 
@@ -18,9 +18,10 @@ class MyApp extends StatelessWidget {
     pushProvider.initNotifications();
   }*/
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider<LoginState>(
-      builder: (BuildContext context, LoginState) => LoginState,
-      create: (BuildContext context) => LoginState(),
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider<LoginState>(create: (_) => LoginState()),
+      ],
       child: MaterialApp(
           debugShowCheckedModeBanner: false,
           title: 'Carniceria',
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
             primaryColor: kPrimaryColor,
             scaffoldBackgroundColor: Colors.white,
           ),
+          initialRoute: '/',
           routes: {
             '/': (BuildContext context) {
               var state = Provider.of<LoginState>(context, listen: false);
